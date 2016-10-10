@@ -15,7 +15,7 @@
     "authentication",
     "ldapauth"
   ],
-  "version": "0.6.0",
+  "version": "0.6.0-patch",
   "license": "MIT",
   "main": "./lib/passport-ldapauth",
   "engines": {
@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "passport-strategy": "1.x.x",
-    "ldapauth-fork": "git+https://github.com/johncylee/node-ldapauth-fork.git#a68be363a98aab896dc3004a342c1e330cb418af"
+    "ldapauth-fork": "git+https://github.com/chriswininger/node-ldapauth-fork.git#c07a729731847ebb825a5586887335548f3a7c19"
   },
   "devDependencies": {
     "basic-auth": "1.0.x",
